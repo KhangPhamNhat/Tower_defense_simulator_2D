@@ -1,0 +1,53 @@
+<maps>
+    <map id="1">
+        <wave number="1"  enemies="GOBLIN,GOBLIN,GOBLIN"           spawnDelay="1000" hasBoss="false"/>
+        <wave number="2"  enemies="GOBLIN,GOBLIN,ORC"              spawnDelay="1000" hasBoss="false"/>
+        <wave number="3"  enemies="GOBLIN,ORC,ORC"                 spawnDelay="900"  hasBoss="false"/>
+        <wave number="4"  enemies="ORC,ORC,ORC,GOBLIN"             spawnDelay="900"  hasBoss="false"/>
+        <wave number="5"  enemies="ORC,ORC,TROLL"                  spawnDelay="800"  hasBoss="false"/>
+        <wave number="6"  enemies="TROLL,ORC,ORC,GOBLIN"           spawnDelay="800"  hasBoss="false"/>
+        <wave number="7"  enemies="TROLL,TROLL,ORC"                spawnDelay="700"  hasBoss="false"/>
+        <wave number="8"  enemies="TROLL,TROLL,TROLL"              spawnDelay="700"  hasBoss="false"/>
+        <wave number="9"  enemies="TROLL,TROLL,ORC,ORC"            spawnDelay="600"  hasBoss="false"/>
+        <wave number="10" enemies="TROLL,TROLL,TROLL,ORC"          spawnDelay="600"  hasBoss="false"/>
+        <wave number="11" enemies="TROLL,TROLL,TROLL,TROLL"        spawnDelay="500"  hasBoss="false"/>
+        <wave number="12" enemies="TROLL,TROLL,TROLL,ORC,ORC"      spawnDelay="500"  hasBoss="false"/>
+        <wave number="13" enemies="TROLL,TROLL,TROLL,TROLL,ORC"    spawnDelay="400"  hasBoss="false"/>
+        <wave number="14" enemies="TROLL,TROLL,TROLL,TROLL,TROLL"  spawnDelay="400"  hasBoss="false"/>
+        <wave number="15" enemies="BOSS_ONE"                        spawnDelay="0"    hasBoss="true"/>
+    </map>
+    <map id="2">
+        <wave number="1"  enemies="GOBLIN,GOBLIN,GOBLIN,GOBLIN"    spawnDelay="900"  hasBoss="false"/>
+        <wave number="2"  enemies="GOBLIN,ORC,ORC"                 spawnDelay="900"  hasBoss="false"/>
+        <wave number="3"  enemies="ORC,ORC,ORC"                    spawnDelay="800"  hasBoss="false"/>
+        <wave number="4"  enemies="ORC,ORC,TROLL"                  spawnDelay="800"  hasBoss="false"/>
+        <wave number="5"  enemies="TROLL,TROLL,ORC"                spawnDelay="700"  hasBoss="false"/>
+        <wave number="6"  enemies="TROLL,TROLL,TROLL"              spawnDelay="700"  hasBoss="false"/>
+        <wave number="7"  enemies="TROLL,TROLL,TROLL,ORC"          spawnDelay="600"  hasBoss="false"/>
+        <wave number="8"  enemies="TROLL,TROLL,TROLL,TROLL"        spawnDelay="600"  hasBoss="false"/>
+        <wave number="9"  enemies="TROLL,TROLL,TROLL,TROLL,ORC"    spawnDelay="500"  hasBoss="false"/>
+        <wave number="10" enemies="TROLL,TROLL,TROLL,TROLL,TROLL"  spawnDelay="500"  hasBoss="false"/>
+        <wave number="11" enemies="TROLL,TROLL,TROLL,TROLL,TROLL"  spawnDelay="400"  hasBoss="false"/>
+        <wave number="12" enemies="TROLL,TROLL,TROLL,TROLL,TROLL"  spawnDelay="400"  hasBoss="false"/>
+        <wave number="13" enemies="TROLL,TROLL,TROLL,TROLL,TROLL"  spawnDelay="300"  hasBoss="false"/>
+        <wave number="14" enemies="TROLL,TROLL,TROLL,TROLL,TROLL"  spawnDelay="300"  hasBoss="false"/>
+        <wave number="15" enemies="BOSS_TWO"                        spawnDelay="0"    hasBoss="true"/>
+    </map>
+    <map id="3">
+        <wave number="1"  enemies="ORC,ORC,ORC,GOBLIN"             spawnDelay="800"  hasBoss="false"/>
+        <wave number="2"  enemies="ORC,ORC,TROLL"                  spawnDelay="800"  hasBoss="false"/>
+        <wave number="3"  enemies="TROLL,TROLL,ORC"                spawnDelay="700"  hasBoss="false"/>
+        <wave number="4"  enemies="TROLL,TROLL,TROLL"              spawnDelay="700"  hasBoss="false"/>
+        <wave number="5"  enemies="TROLL,TROLL,TROLL,ORC"          spawnDelay="600"  hasBoss="false"/>
+        <wave number="6"  enemies="TROLL,TROLL,TROLL,TROLL"        spawnDelay="600"  hasBoss="false"/>
+        <wave number="7"  enemies="TROLL,TROLL,TROLL,TROLL,ORC"    spawnDelay="500"  hasBoss="false"/>
+        <wave number="8"  enemies="TROLL,TROLL,TROLL,TROLL,TROLL"  spawnDelay="500"  hasBoss="false"/>
+        <wave number="9"  enemies="TROLL,TROLL,TROLL,TROLL,TROLL"  spawnDelay="400"  hasBoss="false"/>
+        <wave number="10" enemies="TROLL,TROLL,TROLL,TROLL,TROLL"  spawnDelay="400"  hasBoss="false"/>
+        <wave number="11" enemies="TROLL,TROLL,TROLL,TROLL,TROLL"  spawnDelay="300"  hasBoss="false"/>
+        <wave number="12" enemies="TROLL,TROLL,TROLL,TROLL,TROLL"  spawnDelay="300"  hasBoss="false"/>
+        <wave number="13" enemies="TROLL,TROLL,TROLL,TROLL,TROLL"  spawnDelay="200"  hasBoss="false"/>
+        <wave number="14" enemies="TROLL,TROLL,TROLL,TROLL,TROLL"  spawnDelay="200"  hasBoss="false"/>
+        <wave number="15" enemies="BOSS_THREE"                      spawnDelay="0"    hasBoss="true"/>
+    </map>
+</maps>
