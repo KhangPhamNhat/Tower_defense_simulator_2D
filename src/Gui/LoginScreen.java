@@ -97,9 +97,9 @@ public class LoginScreen extends JPanel {
                 JOptionPane.showMessageDialog(frame,"Please enter username and password");
                 return;
             }
-            if(password.length()<6){
-                JOptionPane.showMessageDialog(frame,"Password must be at least 6 characters");
-                return;
+            if(!password.matches("^(?=.*[A-Za-z])(?=.*\\d).{6,}$")){
+                JOptionPane.showMessageDialog(frame,"Passwords must have at least 6 characters, including both letters and numbers.");
+            return;
             }
             String hashed = SecurityManager.hashPassword(password);
             if(DBManager.registerPlayer(username,hashed)){
